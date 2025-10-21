@@ -1,0 +1,319 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anshu Kumar Raj | Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miniver&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" href="responsive.css">
+        <script type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+        (function(){
+            emailjs.init({
+              publicKey: "ik_qB25oxc5ZSYE0V",
+            });
+        })();
+      </script>
+    </head>
+    <body>
+    <!--Navbar-->
+    <header>
+        <nav class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo">
+            <span>CodeWorld</span>
+          </div>
+
+          <!--Toggle Button-->
+          <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Porjects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero section-animate">
+      <div class="hero-container">
+    <!--Left side text button-->
+    <div class="hero-text" data-aos ="fade-right">
+      <h1>Hello, I'm <span class="highlight"><br>Anshu Kumar Raj</span></h1>
+      <h2>I'm a <span class="typing-text"></span></h2>
+      <p>Frontend web Developer | UI Designer | Fresh Graduate</p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="images/anshu.pdf" download class="btn-outline" id="resume-btn">Download Resume</a>
+      </div>
+    </div>
+
+    <!--Right Side coding image-->
+    <div class="hero-image" data-aos="fade-left">
+      <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="coding animation">
+    </div>
+    </div>
+    </section>
+
+    <!--About section-->
+    <section id="about" class="about section-animate">
+      <div class="about-container" data-aos="fade-left">
+        <!--left image-->
+        <div class="about-image" data-aos="fade-right">
+          <img src="images/profilepic.jpg" alt="anshu">
+        </div>
+        
+
+        <!--Right Text-->
+
+        <div class="about-text" data-aos="fade-left">
+          <h2>About Me</h2>
+          <p>Hello! I'm <span class="highlight">Anshu Kumar Raj</span>, a <strong>recent graduate</strong> passionate about <strong>Frontend Web Development</strong> and <strong>UI Design</strong>. I love learning new technologies and building interactive, responsive web expriences.</p>
+          <p>Currently, I'm looking for oppotunities to grow as a <strong>Web Developer</strong> and contribute my creativity and skills to real-world projects.</p>
+          <a href="#contact" class="btn">Contact Me</a>
+          
+        <!-- Social Links (below Contact button) -->
+    <div class="social-links">
+      <a href="https://github.com/anshukhg2003" target="_blank" title="GitHub">
+        <img src="images/github.png" alt="GitHub">
+      </a>
+      <a href="https://www.linkedin.com/in/anshuman-singh-8baba8297/" target="_blank" title="LinkedIn">
+        <img src="images/linkd.png" alt="LinkedIn">
+      </a>
+      <a href="https://www.instagram.com/sanskaari.baalak00/" target="_blank" title="Twitter">
+        <img src="images/instagram.png" alt="instagram">
+      </a>
+      <a href="https://youtube.com/@mrblackdevil734?si=GZ3mCURG9LLwfttK" target="_blank" title="youtube">
+        <img src="images/yout.png" alt="youtube">
+      </a>
+    </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!--Skill Section-->
+    <section id="skills" class="skills section-animate">
+      <div class="skills-container">
+        <h2>⚡Frontend Skills</h2>
+
+        <div class="skills-dashboard">
+          <div class="skill-pie" data-percent="95" data-skill="HTML" data-color="#ff6a00"></div>
+          <div class="skill-pie" data-percent="90" data-skill="CSS" data-color="#007bff"></div>
+          <div class="skill-pie" data-percent="85" data-skill="JavaScript" data-color="#ffd700"></div>
+          <div class="skill-pie" data-percent="80" data-skill="React" data-color="#61dafb"></div>
+          <div class="skill-pie" data-percent="75" data-skill="Bootstrap" data-color="#ff69b4"></div>
+          <div class="skill-pie" data-percent="65" data-skill="Tailwind CSS" data-color="#5f7bff"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Education Section-->
+
+    <section id="education" class="education section-animate">
+      <div class="education-container">
+        <h2 data-aos="fade-In">🎓My Eduacation</h2>
+
+        <div class="education-list">
+
+          <div class="education-item" data-aos="fade-left">
+            <div class="edu-left">
+              <img src="images/sietk.png" alt="College Logo" class="edu-img">
+            </div>
+            <div class="edu-center">
+              <h3>Bachelor of Technology (B.Tech)  Computer Science</h3>
+              <p class="edu-school">JNTU University | 2022 - 2025</p>
+              <p class="edu-desc">Graduated with Computer Science strong technical knowledge, foucused on frontend development.</p>
+            </div>
+            <div class="edu-right">
+              <span class="edu-percent">78%</span>
+            </div>
+          </div>
+
+          <div class="education-item" data-aos="fade-right">
+            <div class="edu-left">
+              <img src="images/sbte.png" alt="Diploma" class="edu-img">
+            </div>
+            <div class="edu-center">
+              <h3>Diploma in Engineering (CSE)</h3>
+              <p class="edu-school">Govt. Polytechnic Purnea | 2018 - 2021</p>
+              <p class="edu-desc">Focused on basic logic programming language like Core-Java, MySQl, Computer Network.</p>
+            </div>
+            <div class="edu-right">
+              <span class="edu-percent">76%</span>
+            </div>
+          </div>
+
+          <div class="education-item" data-aos="fade-up">
+            <div class="edu-left">
+              <img src="images/bseb.webp" alt="High School Logo" class="edu-img">
+            </div>
+            <div class="edu-center">
+              <h3>JNKT High School (10th)</h3>
+              <p class="edu-school">BSEB Board | 2017 - 2018</p>
+              <p class="edu-desc">Dicsovered an early interest in computers and technology, inspiring a future career in software and design.</p>
+            </div>
+            <div class="edu-right">
+              <span class="edu-percent">58%</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-animate">
+      <div class="projects-container">
+        <h2>🚀My Projects</h2>
+
+        <div class="projects-grid">
+          <!-- Project Card1 -->
+          <div class="project-card" data-aos="fade-up">
+            <div class="project-image">
+              <img src="images/ebook.png" alt="E-Book Project">
+            </div>
+            <div class="project-content">
+              <h3>E-Book Online</h3>
+              <p>A fully responsive web app to browse and read e-books online with categories and search functionality.</p>
+            </div>
+            <div class="project-overlay">
+              <a href="https://e-bookstoreonline.netlify.app/" target="_blank" class="btn">Live Demo</a>
+              <a href="https://github.com/anshukhg2003/E-Book-Online-Store-Website" target="_blank" class="btn-outline">View Code</a>
+            </div>
+          </div>
+
+          <!-- Project Card2 -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="images/tastybite.png" alt="tastybite">
+            </div>
+            <div class="project-content">
+              <h3>TastyBite</h3>
+              <p>TastyBite is a responsive mini website that allows user to browse resturants, view menus, and order food online. The project built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-overlay">
+              <a href="https://tastybiteonline.netlify.app/" target="_blank" class="btn">Live Demo</a>
+              <a href="https://github.com/anshukhg2003/Tastybiteonline" target="_blank" class="btn-outline">View Code</a>
+            </div>
+          </div>
+          
+          <!--Porject card 3-->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img src="images/portfolio.png" alt="portfolio">
+            </div>
+            <div class="project-content">
+              <h3>Personal Portfolio</h3>
+              <p>A responsive personal portfolio site showcasing my projects, skills, and contact info - built with HTML, CSS, JS.</p>
+            </div>
+            <div class="project-overlay">
+              <a href="https://myportfolio2003.netlify.app/" target="_blank" class="btn">Live Demo</a>
+              <a href="https://github.com/anshukhg2003/My-Portfolio" target="_blank" class="btn-outline">View Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-animate">
+      <div class="contact-container">
+
+        <!-- Left Side: Image -->
+        <div class="contact-image" data-aos="fade-right">
+          <img src="images/3627297.jpg" alt="Contact Illustration">
+        </div>
+
+        <!-- Right Side: Form -->
+        <div class="contact-form" data-aos="fade-left">
+          <h2>📩 Get in Touch</h2>
+          <p>I'm looking for job and internships or project opportunities - feel free to reach out!</p>
+          
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+            <p id="formMsg" class="form-msg"></p>
+          </form>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https://github.com/anshukhg2003" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/anshuman-singh-8baba8297/" target="_blank"><img src="images/linkd.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/sanskaari.baalak00/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="youtube.com/@mrblackdevil734?si=GZ3mCURG9LLwfttK" target="_blank"><img src="images/yout.png" alt="YouTube"></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+
+        <!-- About -->
+        <div class="footer-about">
+          <h3>CodeWorld</h3>
+          <p>Hi! I'm <span class="highlight">Anshu Kumar Raj</span>. I build responsive, modern websites with a passion for frontend development and UI/UX design. My goal is to create interactive, user-friendly, and visually appealing digital experiences.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>Email: <a href="mailto:anshukhg0303@gmail.com">anshukhg0303@gmail.com</a></p>
+          <p>Phone: +91 7482900468</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Anshu Kumar Raj | All Rights Reserved</p>
+      </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="portfolio.js"></script>
+    </script>
+    </body>
+    </html>
