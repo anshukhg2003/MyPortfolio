@@ -414,12 +414,13 @@
         width: 90px;
         height: 90px;
     }
+    .education h2 { font-size: 1.3rem; }
     .about {
     max-width: 100%;
     border-radius: 10px; 
     box-shadow: 0 0 50px rgba(0, 191, 255, 0.1);
     
-}
+  }
     .about-container {
         position: relative;
         display: flex;
@@ -453,6 +454,39 @@
   color: #00ffff;
   margin-bottom: 60px;
  } 
- 
- 
+
+  .contact-form h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .contact-form .social-links {
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button {
+        font-size: 0.95rem;
+    }
+    
+    .contact-image img {
+        max-width: 250px;
+    }
+    
+    .contact-form .social-links a img {
+        width: 40px;
+        height: 40px;
+    }
+    form-msg {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #00ffff;
+   }
+}
+
+@media (max-width: 360px)  {
+.education h2 { font-size: 1.3rem; }
+
 }
