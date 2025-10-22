@@ -209,7 +209,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
   })
   .then(function(response) {
     console.log("SUCCESS!", response.status, response.text);
-    formMsg.textContent = `✅ Message sent successfully by {name} (${email})!`;
+    formMsg.textContent = `✅ Message sent successfully by ${name} (${email})!`;
     formMsg.style.color = "#00ffcc";
 
     // Clear form

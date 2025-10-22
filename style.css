@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background: #060812;
    /* scroll-behavior: smooth; */
@@ -761,7 +760,6 @@ header {
 
 
 
-
 /* ---------------- Contact Section ---------------- */
 .contact {
    /* padding: 120px 80px; */
@@ -885,8 +883,6 @@ header {
     transform: scale(1.2);
     filter: drop-shadow(0 0 8px #00ffff);
 }
-
-
 
 /* ---------------- Footer Section ---------------- */
 .footer {
